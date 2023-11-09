@@ -8,6 +8,6 @@ function minimumNumber(x,y){
     return smallNumber;
 }
 
-const result  = minimumNumber(-3,1) ;
+const result  = minimumNumber(3,-1) ;
 
 console.log(result)
