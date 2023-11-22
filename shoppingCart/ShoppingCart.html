@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="./ShoppingCart.js"></script>
+  <link rel="stylesheet" href="ShoppingCart.css" />
+</head>
+
+
+<body>
+  <header>  <h1>SHOPPING LIST</h1></header>
+  <div>
+
+  
+
+    <table>
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+
+      </tbody>
+    </table>
+    <tr>
+      <td><input type="text" id="item"></td>
+      <td><input type="number" id="price"></td>
+    </tr>
+    <script>
+
+      document.addEventListener('keypress', function (event) {
+        if (event.key === 'Enter') {
+          addToCart();
+        }
+      });
+    </script>
+
+
+    <button onclick="addToCart()">Add to list</button>
+    <button onclick="sum()">Sum</button>
+  </div>
+</body>
+</div>
+
+</html>

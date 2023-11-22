@@ -1,0 +1,40 @@
+body, html {
+    height: 100%;
+    margin: 
+}
+
+body {
+    background-image: url(./assetFolder/cyber-monday-retail-sales.jpg);
+    background-size: cover;
+    margin-left: 15px;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+
+}
+header{
+    text-align: center;
+    
+
+}
+
+table, button {
+    text-align: left;
+}
+tr{
+    display: flex;
+    gap: 110px;
+}
+button {
+    cursor: pointer;
+    border: 1px soli d;
+}
+
+input {
+    width: 100px;
+}
+
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}

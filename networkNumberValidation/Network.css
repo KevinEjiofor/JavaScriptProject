@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(../phoneNumber/pictures/Mobile-Internet-Nigeria-696x452.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .container {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+    color: #333;
+  }
+
+  input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+    font-size: 16px;
+  }
+
+  button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  #networkLogo {
+    margin-top: 20px;
+    display: none;
+  }
+
+  #networkLogo img {
+    max-width: 100px;
+  }

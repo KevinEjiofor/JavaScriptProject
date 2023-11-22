@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Network Finder</title>
+  <script src="Network.js" defer></script>
+  <link rel="stylesheet" href="Network.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Enter your Phone Number</h1>
+
+    <input type="tel" id="phoneNumber" placeholder="Enter your phone number" maxlength="11" pattern="[0-9]{11}">
+    
+    <button onclick="checkNetwork()">Check Network</button>
+    <div id="networkLogo">
+      <img id="networkImage" alt="Network Logo">
+    </div>
+  </div>
+</body>
+
+</html>
