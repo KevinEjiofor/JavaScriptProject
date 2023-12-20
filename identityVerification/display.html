@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ziggy's CashBack</title>
+    <link rel="stylesheet" href="./display.css">
+    <script defer src="./display.js"></script>
+</head>
+<body>
+    <main class="main">
+     
+            <div id="warningMessageContainer"></div>
+
+            <div id="warningMessage"></div>
+        
+        <h1>Ziggy's CashBack</h1>
+        <form id="form">
+            <div class="content">
+                <label for="accountNumber">Account Number
+                    <input id="accountNumber" class="input" type="text" placeholder="Enter Account Number">
+                    <p id="result"></p>
+                </label>
+
+                <label for="bank-name">Bank Name
+                    <select name="bankName" id="bank-name">
+                        <option disabled selected value="">Select Bank</option>
+                    </select>
+                </label>
+
+                <div id="warningMessageContainer"></div>
+            
+                <button type="submit" id="submit">Verify</button>
+                
+            </div>
+        </form>
+    </main>
+</body>
+</html>
