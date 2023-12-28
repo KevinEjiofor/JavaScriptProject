@@ -1,7 +1,7 @@
 
 
 document.addEventListener("DOMContentLoaded", function () {
-    fetchBanks()
+    // fetchBanks()
     let formDetails = document.getElementById("form");
     let warningMessageContainer = document.getElementById("warningMessageContainer"); 
 
